@@ -40,7 +40,7 @@ Dieses Projekt wurde im Rahmen meines IHK-Abschlussprojekts als **Fachinformatik
 
 ---
 
-# ⚙ Projektablauf
+# ⚙️ Systemablauf
 
 ```text
 Öffentliche Vergabeportale
