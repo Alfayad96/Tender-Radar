@@ -2,40 +2,41 @@
 
 ## Automatisierte Suche, Analyse und Bewertung öffentlicher Ausschreibungen
 
-Tender Radar ist eine Webanwendung, die öffentliche Ausschreibungen automatisch durchsucht, relevante Informationen extrahiert, anhand eines intelligenten Scoring-Systems bewertet und die Ergebnisse übersichtlich in einem interaktiven Dashboard darstellt.
+Tender Radar ist eine Webanwendung zur automatisierten Suche, Analyse und Bewertung öffentlicher Ausschreibungen. Die Anwendung durchsucht Vergabeportale, extrahiert relevante Informationen, bewertet Ausschreibungen mithilfe eines intelligenten Scoring-Systems und stellt die Ergebnisse übersichtlich in einem interaktiven Dashboard dar.
 
-Das Projekt wurde im Rahmen meines Abschlussprojekts als **Fachinformatiker für Anwendungsentwicklung** entwickelt.
+Dieses Projekt wurde im Rahmen meines IHK-Abschlussprojekts als **Fachinformatiker für Anwendungsentwicklung** für ein Unternehmen entwickelt. Aus Datenschutz- und Unternehmensgründen wird der vollständige Quellcode nicht veröffentlicht. Dieses Repository dient ausschließlich der Präsentation des Projekts, seiner Funktionen und seiner Architektur.
 
 ---
 
 # 🚀 Funktionen
 
-- 🔍 Automatische Suche nach öffentlichen Ausschreibungen
-- 📄 Auslesen von Detailseiten und Verfahrensangaben
-- 🧠 Intelligente Relevanzanalyse
-- 📊 Scoring-System zur Bewertung der Ausschreibungen
-- ✅ Automatische Einteilung in:
-  - Passend
-  - Manuell prüfen
-  - Nicht aktiv
-  - Nicht passend
-- 🔎 Suchfunktion
-- 📑 Sortierung der Ergebnisse
-- 🔐 Login-System
-- 📈 Live-Fortschrittsanzeige während der Analyse
-- 💻 Interaktives Dashboard
+* 🔍 Automatische Suche nach öffentlichen Ausschreibungen
+* 📄 Auslesen von Detailseiten und Verfahrensangaben
+* 🧠 Intelligente Relevanzanalyse
+* 📊 Scoring-System zur Bewertung der Ausschreibungen
+* ✅ Automatische Einteilung in:
+
+  * Passend
+  * Manuell prüfen
+  * Nicht aktiv
+  * Nicht passend
+* 🔎 Suchfunktion
+* 📑 Sortierung der Ergebnisse
+* 🔐 Login-System
+* 📈 Live-Fortschrittsanzeige während der Analyse
+* 💻 Interaktives Dashboard
 
 ---
 
 # 🛠 Verwendete Technologien
 
-- Python
-- Streamlit
-- BeautifulSoup
-- Requests
-- JSON
-- Git
-- GitHub
+* Python
+* Streamlit
+* BeautifulSoup
+* Requests
+* JSON
+* Git
+* GitHub
 
 ---
 
@@ -51,13 +52,13 @@ Automatische Datensammlung
 Extraktion relevanter Informationen
             │
             ▼
-Relevanzanalyse
+     Relevanzanalyse
             │
             ▼
-Scoring-System
+     Scoring-System
             │
             ▼
-Interaktives Dashboard
+  Interaktives Dashboard
 ```
 
 ---
@@ -68,19 +69,13 @@ Interaktives Dashboard
 
 *Screenshot folgt*
 
----
-
 ## Dashboard
 
 *Screenshot folgt*
 
----
-
 ## Detailansicht
 
 *Screenshot folgt*
-
----
 
 ## Analyse
 
@@ -90,14 +85,14 @@ Interaktives Dashboard
 
 # ⭐ Besondere Merkmale
 
-- Modulare Projektstruktur
-- Automatisierte Datenanalyse
-- Mehrstufiger Analyseprozess
-- Intelligentes Scoring-System
-- Benutzerfreundliche Weboberfläche
-- Such- und Filterfunktionen
-- Live-Fortschrittsanzeige
-- Übersichtliche Darstellung der Ergebnisse
+* Modulare Projektstruktur
+* Automatisierte Datenanalyse
+* Mehrstufiger Analyseprozess
+* Intelligentes Scoring-System
+* Benutzerfreundliche Weboberfläche
+* Such- und Filterfunktionen
+* Live-Fortschrittsanzeige
+* Übersichtliche Darstellung der Ergebnisse
 
 ---
 
@@ -105,16 +100,16 @@ Interaktives Dashboard
 
 Im Rahmen dieses Projekts habe ich:
 
-- die komplette Projektarchitektur entwickelt
-- das Web-Scraping implementiert
-- Parser für Listen-, Detail- und Verfahrensseiten entwickelt
-- die Relevanzanalyse umgesetzt
-- das Scoring-System entwickelt
-- die Streamlit-Webanwendung erstellt
-- Such- und Filterfunktionen integriert
-- das Login-System umgesetzt
-- die Datenverarbeitung entwickelt
-- das Testing und die Fehlerbehebung durchgeführt
+* die Projektarchitektur entwickelt
+* das Web-Scraping implementiert
+* Parser für Listen-, Detail- und Verfahrensseiten entwickelt
+* die Relevanzanalyse umgesetzt
+* das Scoring-System entwickelt
+* die Streamlit-Webanwendung erstellt
+* Such- und Filterfunktionen integriert
+* das Login-System umgesetzt
+* die Datenverarbeitung entwickelt
+* Tests durchgeführt und Fehler behoben
 
 ---
 
@@ -128,15 +123,15 @@ Ziel von Tender Radar ist es, Unternehmen bei der Suche nach relevanten öffentl
 
 Dieses Repository dient ausschließlich der Präsentation des Projekts.
 
-Der vollständige Quellcode wird **nicht veröffentlicht**, da das Projekt im Rahmen einer Unternehmensarbeit entwickelt wurde und unternehmensinterne Bestandteile enthält.
+Der vollständige Quellcode wird nicht veröffentlicht, da das Projekt für ein Unternehmen entwickelt wurde und unternehmensinterne Bestandteile enthält.
 
-Dieses Repository zeigt daher ausschließlich:
+Dieses Repository enthält daher ausschließlich:
 
-- Projektbeschreibung
-- Funktionen
-- Architektur
-- Screenshots
-- Demonstration der Anwendung
+* Projektbeschreibung
+* Funktionen
+* Architektur
+* Screenshots
+* Demonstration der Anwendung
 
 ---
 
