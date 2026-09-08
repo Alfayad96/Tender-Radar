@@ -2,11 +2,20 @@
 
 **Öffentliche IT-Ausschreibungen strukturiert bewerten und schneller priorisieren.**
 
-## 🎬 Video-Demo (10 Sekunden)
+## 🎬 Echte Bedienungsdemo (24 Sekunden)
 
-[![Bewegte Vorschau des Tender-Radar-Demo-Videos](assets/demo/tender-radar-preview.gif)](https://raw.githubusercontent.com/Alfayad96/Tender-Radar/main/assets/demo/tender-radar-demo.mp4)
+[![Tender Radar im echten Einsatz: Marktscan, Suche und Trefferdetails](assets/demo/tender-radar-live-preview.gif)](https://raw.githubusercontent.com/Alfayad96/Tender-Radar/main/assets/demo/tender-radar-live-demo.mp4)
 
-**Die Vorschau bewegt sich automatisch.** Antippen oder anklicken öffnet das echte MP4-Video direkt. Das funktioniert auch auf dem Smartphone; je nach Browser wird es abgespielt oder heruntergeladen.
+Die Aufnahme zeigt die laufende Tender-Radar-Anwendung bei einem echten Marktscan: **174 Ausschreibungen werden verarbeitet**, automatisch bewertet und anschließend über Suche, Ergebnisgruppen und Detailansicht geprüft. Antippen oder anklicken öffnet das MP4-Video direkt – auch auf dem Smartphone.
+
+**[▶ Bedienvideo direkt öffnen](https://raw.githubusercontent.com/Alfayad96/Tender-Radar/main/assets/demo/tender-radar-live-demo.mp4)** · [Live-Anwendung öffnen](https://tender-radar-qm.onrender.com/)
+
+<details>
+<summary>Zusätzlicher animierter Projektüberblick</summary>
+
+[![Animierter Projektüberblick](assets/demo/tender-radar-preview.gif)](https://raw.githubusercontent.com/Alfayad96/Tender-Radar/main/assets/demo/tender-radar-demo.mp4)
+
+</details>
 
 Tender Radar ist eine Python-Webanwendung, die öffentliche Ausschreibungen sammelt, relevante Angaben aufbereitet und die Ergebnisse mit einem mehrstufigen Scoring-System bewertet.
 
