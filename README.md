@@ -2,9 +2,11 @@
 
 **Öffentliche IT-Ausschreibungen strukturiert bewerten und schneller priorisieren.**
 
-[![Tender Radar – Demo ansehen](assets/demo/scene-1.png)](assets/demo/tender-radar-demo.mp4)
+## 🎬 Video-Demo (10 Sekunden)
 
-> Auf die Vorschau klicken, um das vollständige Demo-Video zu öffnen.
+[![Bewegte Vorschau des Tender-Radar-Demo-Videos](assets/demo/tender-radar-preview.gif)](https://raw.githubusercontent.com/Alfayad96/Tender-Radar/main/assets/demo/tender-radar-demo.mp4)
+
+**Die Vorschau bewegt sich automatisch.** Antippen oder anklicken öffnet das echte MP4-Video direkt. Das funktioniert auch auf dem Smartphone; je nach Browser wird es abgespielt oder heruntergeladen.
 
 Tender Radar ist eine Python-Webanwendung, die öffentliche Ausschreibungen sammelt, relevante Angaben aufbereitet und die Ergebnisse mit einem mehrstufigen Scoring-System bewertet.
 
@@ -12,7 +14,7 @@ Das Projekt entstand als IHK-Abschlussprojekt während meiner Umschulung zum Fac
 
 Dieses Repository enthält eine eigenständige, portfoliofähige Demo mit synthetischen Daten. Unternehmensbezogene Bestandteile und Zugangsdaten sind ausdrücklich nicht enthalten.
 
-## Demo starten
+## Anwendung lokal starten
 
 ```bash
 python -m venv .venv
