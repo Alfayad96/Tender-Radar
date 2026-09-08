@@ -2,6 +2,10 @@
 
 **Öffentliche IT-Ausschreibungen strukturiert bewerten und schneller priorisieren.**
 
+[![Tender Radar – Demo ansehen](assets/demo/scene-1.png)](assets/demo/tender-radar-demo.mp4)
+
+> Auf die Vorschau klicken, um das vollständige Demo-Video zu öffnen.
+
 Tender Radar ist eine Python-Webanwendung, die öffentliche Ausschreibungen sammelt, relevante Angaben aufbereitet und die Ergebnisse mit einem mehrstufigen Scoring-System bewertet.
 
 Das Projekt entstand als IHK-Abschlussprojekt während meiner Umschulung zum Fachinformatiker für Anwendungsentwicklung in Zusammenarbeit mit QM Interactive.
