@@ -1,12 +1,23 @@
-# Tender Radar
+# Tender Radar · Portfolio Demo
 
-**Automatisierte Suche, Analyse und Bewertung öffentlicher Ausschreibungen**
+**Öffentliche IT-Ausschreibungen strukturiert bewerten und schneller priorisieren.**
 
 Tender Radar ist eine Python-Webanwendung, die öffentliche Ausschreibungen sammelt, relevante Angaben aufbereitet und die Ergebnisse mit einem mehrstufigen Scoring-System bewertet.
 
 Das Projekt entstand als IHK-Abschlussprojekt während meiner Umschulung zum Fachinformatiker für Anwendungsentwicklung in Zusammenarbeit mit QM Interactive.
 
-> Der vollständige Quellcode wird nicht veröffentlicht, weil das Projekt unternehmensbezogene Bestandteile enthält. Dieses Repository dokumentiert die Funktionen, die Architektur und meinen Beitrag.
+Dieses Repository enthält eine eigenständige, portfoliofähige Demo mit synthetischen Daten. Unternehmensbezogene Bestandteile und Zugangsdaten sind ausdrücklich nicht enthalten.
+
+## Demo starten
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+Die Demo zeigt Suche, Statusfilter, Sortierung, transparente Bewertungsgründe und eine responsive Ergebnisansicht.
 
 ## Ziel
 
@@ -14,35 +25,30 @@ Unternehmen sollen passende Ausschreibungen schneller finden und den manuellen R
 
 ## Funktionen
 
-- Automatisierte Suche auf öffentlichen Vergabeportalen
-- Auslesen von Listen-, Detail- und Verfahrensseiten
-- Aufbereitung relevanter Ausschreibungsdaten
-- Mehrstufiges Scoring-System
+- Portfolio-sichere synthetische Ausschreibungsdaten
+- Regelbasiertes, nachvollziehbares Scoring-System
 - Einteilung in „Passend“, „Manuell prüfen“, „Nicht aktiv“ und „Nicht passend“
 - Such-, Sortier- und Filterfunktionen
-- Login-Bereich
-- Live-Fortschrittsanzeige
-- Interaktives Dashboard
+- Responsive Streamlit-Oberfläche
+- Automatisierte Regressionstests
+- GitHub-Actions-Workflow
 
 ## Technologien
 
 - Python
 - Streamlit
-- BeautifulSoup
-- Requests
 - JSON
-- Git und GitHub
+- Pytest
+- GitHub Actions
 
 ## Systemablauf
 
 ```mermaid
 flowchart TD
-    A[Öffentliche Vergabeportale] --> B[Automatisierte Datensammlung]
-    B --> C[Extraktion relevanter Angaben]
-    C --> D[Datenaufbereitung]
-    D --> E[Relevanzprüfung und Scoring]
-    E --> F[Such- und Filterfunktionen]
-    F --> G[Streamlit-Dashboard]
+    A[Synthetische Demo-Daten] --> B[Datenaufbereitung]
+    B --> C[Relevanzprüfung und Scoring]
+    C --> D[Suche, Filter und Sortierung]
+    D --> E[Streamlit-Dashboard]
 ```
 
 ## Mein Beitrag
@@ -57,9 +63,17 @@ flowchart TD
 - Durchführung von Tests und Fehlerbehebungen
 - Erstellung der technischen Dokumentation
 
-## Status
+## Qualität
 
-Das Abschlussprojekt wurde im April 2026 fertiggestellt. Dieses öffentliche Repository dient als Portfolio- und Dokumentationsseite.
+```bash
+pytest -q
+```
+
+Die Tests prüfen relevante Treffer, inaktive Ausschreibungen, negative Hardware-Fälle, Textnormalisierung und den Erhalt echter Nullwerte.
+
+## Hintergrund
+
+Das ursprüngliche IHK-Abschlussprojekt wurde im April 2026 fertiggestellt und bei QM Interactive eingesetzt. Diese öffentliche Demo reproduziert das Bedien- und Bewertungskonzept ohne vertraulichen Quellcode oder reale Unternehmensdaten.
 
 ## Hinweis
 
